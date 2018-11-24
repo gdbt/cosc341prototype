@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.noah.delivery">
+    package="com.example.noah.loginandmain">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Delivery_main">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Deliveryinfo1" />
-        <activity android:name=".DeliveryInfo2" />
-        <activity android:name=".DeliveryInfo3"></activity>
+        <activity android:name=".main" />
+        <activity android:name=".registration"></activity>
     </application>
 
 </manifest>
